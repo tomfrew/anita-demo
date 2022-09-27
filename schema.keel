@@ -15,6 +15,7 @@ model Todo {
 
 api Web {
     @graphql
+
     models {
         Todo
     }
